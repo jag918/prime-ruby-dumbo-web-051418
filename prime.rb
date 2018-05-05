@@ -1,5 +1,5 @@
 def prime?(number)
-  number=abs(number)
+  number.abs 
   number_count=2..number-1
   for i in number_count 
     puts i 
