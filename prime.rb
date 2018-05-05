@@ -13,4 +13,3 @@ def prime?(number)
   end
 end
 
-prime?(-11)
