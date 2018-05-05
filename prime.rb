@@ -13,3 +13,5 @@ def prime?(number)
   end
 end
 
+puts(prime?(7))
+
