@@ -1,9 +1,9 @@
 def prime?(number)
-  
+  number=abs(number)
   number_count=2..number-1
   for i in number_count 
     puts i 
-    if number % i==0 || number % -i==0 
+    if number % i==0 
       puts true
       true 
     else
